@@ -1,0 +1,102 @@
+/* Estilos globais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f0fc; /* Fundo lilás claro */
+    color: #2e004f; /* Texto roxo escuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #6a0dad; /* Roxo médio */
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Navegação */
+nav {
+    background-color: #4b0082; /* Roxo escuro */
+    padding: 1rem;
+}
+
+nav h3 {
+    color: white;
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0.5rem;
+}
+
+nav ul a:hover {
+    background-color: #7b3f8f; /* Roxo acinzentado */
+}
+
+/* Conteúdo principal */
+main {
+    padding: 2rem;
+    background-color: #ffffff; /* Branco */
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(160, 32, 240, 0.2); /* Sombra lilás */
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #6a0dad; /* Roxo médio */
+}
+
+main h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #4b0082; /* Roxo escuro */
+}
+main h4 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: #4b0082; /* Roxo escuro */
+}
+
+main img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 50%;
+    border: 3px solid #6a0dad; /* Borda roxa */
+}
+
+/* Rodapé */
+footer {
+    background-color: #4b0082; /* Roxo escuro */
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #dda0dd; /* Lavanda */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
